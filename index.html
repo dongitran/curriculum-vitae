@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dong Tran - CV</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        @page {
+            size: A4;
+            margin: 12mm;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            font-size: 9.5pt;
+            line-height: 1.4;
+            color: #2c3e50;
+        }
+
+        /* Header - Compact */
+        .header {
+            background: #2c3e50;
+            color: white;
+            padding: 18px 20px;
+            margin-bottom: 16px;
+        }
+
+        .header-grid {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 22pt;
+            font-weight: 700;
+            margin-bottom: 3px;
+        }
+
+        .subtitle {
+            font-size: 12pt;
+            color: #ecf0f1;
+        }
+
+        .contact {
+            font-size: 8pt;
+            text-align: right;
+            line-height: 1.5;
+        }
+
+        .contact div {
+            margin-bottom: 3px;
+        }
+
+        .contact a {
+            color: #bdc3c7;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            color: #ecf0f1;
+            text-decoration: underline;
+        }
+
+        /* Summary - Very compact */
+        .summary {
+            font-size: 9.5pt;
+            line-height: 1.45;
+            margin-bottom: 10px;
+            padding: 10px 12px;
+            background: #f8f9fa;
+            border-left: 3px solid #3498db;
+        }
+
+        /* Section Headers */
+        h2 {
+            font-size: 13pt;
+            font-weight: 600;
+            margin: 10px 0 7px 0;
+            padding-bottom: 4px;
+            border-bottom: 2px solid #3498db;
+            page-break-after: avoid;
+        }
+
+        /* Experience - Compact */
+        .job {
+            margin-bottom: 10px;
+            page-break-inside: avoid;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 2px;
+        }
+
+        h3 {
+            font-size: 10.5pt;
+            font-weight: 600;
+        }
+
+        .duration {
+            font-size: 8pt;
+            color: #7f8c8d;
+            font-weight: 500;
+        }
+
+        .company {
+            font-size: 9.5pt;
+            color: #3498db;
+            font-weight: 500;
+            margin-bottom: 4px;
+        }
+
+        .description {
+            font-size: 9pt;
+            margin-bottom: 4px;
+            color: #555;
+        }
+
+        ul {
+            margin: 4px 0;
+            padding-left: 16px;
+        }
+
+        li {
+            font-size: 8.5pt;
+            line-height: 1.35;
+            margin-bottom: 2px;
+            color: #555;
+        }
+
+        .tech-stack {
+            font-size: 8pt;
+            margin-top: 4px;
+            padding: 5px 8px;
+            background: #f8f9fa;
+            border-radius: 3px;
+        }
+
+        .tech-stack strong {
+            color: #2c3e50;
+        }
+
+        /* Skills - Ultra compact */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            margin-bottom: 10px;
+        }
+
+        .skill-item {
+            font-size: 8.5pt;
+            line-height: 1.5;
+        }
+
+        .skill-item strong {
+            color: #2c3e50;
+            font-weight: 600;
+        }
+
+        /* Education - Two columns */
+        .education-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+        }
+
+        .education {
+            padding: 8px 10px;
+            background: #f8f9fa;
+            border-left: 3px solid #3498db;
+        }
+
+        .education h4 {
+            font-size: 9pt;
+            font-weight: 600;
+            margin-bottom: 3px;
+        }
+
+        .education-details {
+            font-size: 8pt;
+            color: #555;
+        }
+
+        /* Print optimization */
+        @media print {
+            body {
+                font-size: 9pt;
+            }
+            
+            .header {
+                padding: 14px 16px;
+            }
+            
+            h2 {
+                margin-top: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="header-grid">
+            <div>
+                <h1>Dong Tran</h1>
+                <div class="subtitle">Senior Fullstack Developer</div>
+            </div>
+            <div class="contact">
+                <div>📧 <a href="mailto:dongtranthienio@gmail.com">dongtranthienio@gmail.com</a></div>
+                <div>📱 +84 767 692 595</div>
+                <div>📍 Ho Chi Minh City, Vietnam</div>
+                <div>💼 <a href="https://github.com/dongitran">github.com/dongitran</a></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Summary -->
+    <div class="summary">
+        Senior Fullstack Developer with 7+ years of experience in embedded systems and backend development. 
+        Specialized in microservices architecture, payment systems integration, and DevOps optimization.
+    </div>
+    
+    <div class="summary">
+        Experienced in leveraging AI agents and automation tools to enhance development workflows and productivity.
+    </div>
+
+    <!-- Work Experience -->
+    <h2>Work Experience</h2>
+
+    <div class="job">
+        <div class="job-header">
+            <h3>Senior Fullstack Developer</h3>
+            <span class="duration">Apr 2022 - Present</span>
+        </div>
+        <div class="company">UrBox</div>
+        <div class="description">Managing and developing microservices architecture for fintech platform.</div>
+        <ul>
+            <li>Designed and implemented microservices with NestJS, TypeORM, PostgreSQL, MongoDB, and Kafka messaging</li>
+            <li>Integrated CyberSource payment gateway for payment processing</li>
+            <li>Developed whitelabel payment systems for major Vietnamese banks (VPBank, ACB, VCB) and international cards (JCB)</li>
+            <li>Built Visa loyalty and points accumulation system</li>
+            <li>Optimized GitHub Actions CI/CD workflows, reducing deployment time from 3+ minutes to under 1 minute</li>
+            <li>Implemented OpenTelemetry distributed tracing for monitoring and debugging distributed systems</li>
+            <li>Developed comprehensive testing strategies using Playwright and MCP integrations</li>
+        </ul>
+        <div class="tech-stack"><strong>Tech Stack:</strong> NestJS, TypeORM, PostgreSQL, MongoDB, Redis, Kafka, Docker, GitHub Actions, OpenTelemetry</div>
+    </div>
+
+    <div class="job">
+        <div class="job-header">
+            <h3>Firmware Team Lead</h3>
+            <span class="duration">Apr 2018 - Mar 2022</span>
+        </div>
+        <div class="company">IDEA Technology Joint Stock Company</div>
+        <div class="description">Led firmware development team for IoT and industrial automation projects.</div>
+        <ul>
+            <li>Led firmware development team for AGV (Automated Guided Vehicle) systems and industrial automation projects</li>
+            <li>Developed control systems for vending machines, pallet dispenser machines, and IoT monitoring platform</li>
+            <li>Implemented communication protocols (UART, SPI, I2C, Modbus) and optimized system performance</li>
+        </ul>
+        <div class="tech-stack"><strong>Key Projects:</strong> AGV Systems, Vending Machines, Pallet Dispenser Machines, IoT Monitoring Platform</div>
+    </div>
+
+    <div class="job">
+        <div class="job-header">
+            <h3>Embedded Programming Engineer</h3>
+            <span class="duration">Mar 2017 - Mar 2018</span>
+        </div>
+        <div class="company">Truong Phat Plastic Joint Stock Company</div>
+        <div class="description">Participated in the development of automation lines for plastic manufacturing processes.</div>
+        <ul>
+            <li>Developed PLC programs and control systems for industrial automation lines</li>
+            <li>Maintained and debugged existing automation systems in manufacturing processes</li>
+        </ul>
+        <div class="tech-stack"><strong>Focus:</strong> Industrial Automation, PLC Programming, Manufacturing Process Control</div>
+    </div>
+
+    <!-- Technical Skills -->
+    <h2>Technical Skills</h2>
+    <div class="skills-grid">
+        <div class="skill-item"><strong>Backend:</strong> NestJS, Node.js, TypeScript, TypeORM, REST API, Microservices</div>
+        <div class="skill-item"><strong>Database:</strong> PostgreSQL, MongoDB, Redis, Kafka</div>
+        <div class="skill-item"><strong>DevOps:</strong> GitHub Actions, Docker, Kubernetes, OpenTelemetry</div>
+        <div class="skill-item"><strong>Payment:</strong> CyberSource, Whitelabel Systems (VPBank, ACB, VCB, JCB), Visa Loyalty</div>
+    </div>
+
+    <!-- Education -->
+    <h2>Education</h2>
+    <div class="education-grid">
+        <div class="education">
+            <h4>Industrial University of Ho Chi Minh City</h4>
+            <div class="education-details">
+                Electronics and Telecommunications | 2014 - 2018
+            </div>
+        </div>
+        <div class="education">
+            <h4>Project Management (PMP) Training</h4>
+            <div class="education-details">
+                Professional Development Course | 2025
+            </div>
+        </div>
+    </div>
+</body>
+</html>
