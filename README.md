@@ -12,6 +12,9 @@ Senior Fullstack Developer with 7+ years of experience in embedded systems and b
 
 **👉 [View my CV online](https://dongitran.github.io/curriculum-vitae/)**
 
+> **Note:** This HTML is optimized for PDF export, so the web layout may not look perfect.  
+> For the full portfolio experience, visit my official website: **https://dongitran.github.io**
+
 ---
 
 ## 👨‍💻 About Me
